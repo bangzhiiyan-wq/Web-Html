@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Alif Januardy</title>
+
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background: #0d1117;
+      color: #e6edf3;
+      max-width: 640px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .kartu {
+      background: #161b22;
+      border: 2px solid #39d353;
+      border-radius: 8px;
+      padding: 24px;
+      box-shadow: 0 0 20px rgba(57, 211, 83, 0.3);
+    }
+
+    .judul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #39d353;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0;
+      color: #39d353;
+      font-size: 1.8rem;
+    }
+
+    .level {
+      background: #39d353;
+      color: #0d1117;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .stat {
+      margin-bottom: 10px;
+    }
+
+    .label {
+      display: inline-block;
+      width: 90px;
+      color: #8b949e;
+    }
+
+    .bar-luar {
+      background: #30363d;
+      border-radius: 4px;
+      height: 14px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .bar-isi {
+      background: #39d353;
+      height: 100%;
+    }
+
+    .game-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 16px;
+    }
+
+    .game-list li {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      padding: 8px 12px;
+      margin-bottom: 6px;
+      border-radius: 4px;
+    }
+
+    .game-list li::before {
+      content: "▸ ";
+      color: #39d353;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="kartu">
+    <div class="judul">
+      <h1>King Pleceks</h1>
+      <span class="level">LVL 99</span>
+    </div>
+
+    <p>Hidup seperti sebuah gim kartu, tangan yang diberikan padamu adalah penentuan nasib.</p>
+
+    <div class="stat">
+      <span class="label">XP</span>
+      <div class="bar-luar">
+        <div class="bar-isi" style="width: 80%;"></div>
+      </div>
+    </div>
+
+    <div class="stat">
+      <span class="label">Skill</span>
+      <div class="bar-luar">
+        <div class="bar-isi" style="width: 96%;"></div>
+      </div>
+    </div>
+
+    <h3>Game Favorit</h3>
+    <ul class="game-list">
+      <li>Mobile Legends</li>
+      <li>Free Fire</li>
+      <li>Minecraft</li>
+      <li>Pubg</li>
+    </ul>
+  </div>
+
+</body>
+</html>
